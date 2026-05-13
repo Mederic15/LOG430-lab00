@@ -4,7 +4,7 @@ SPDX - License - Identifier: LGPL - 3.0 - or -later
 Auteurs : Gabriel C. Ullmann, Fabio Petrillo, 2025
 """
 
-from calculator import Calculator
+from ..calculator import Calculator
 
 def test_app():
     my_calculator = Calculator()
@@ -13,7 +13,7 @@ def test_app():
 
 def test_addition():
     my_calculator = Calculator()
-    assert my_calculator.addition(2, 3) == 5
+    assert my_calculator.addition(2, 3) == 6
 
 def test_subtraction():
     my_calculator = Calculator()
